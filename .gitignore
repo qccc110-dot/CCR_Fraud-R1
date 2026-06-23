@@ -1,0 +1,18 @@
+# Python缓存
+__pycache__/
+*.py[cod]
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+
+# 只忽略训练模型权重
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# 临时文件和日志
+*.log
+*.tmp

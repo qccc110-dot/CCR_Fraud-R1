@@ -1,0 +1,36 @@
+{
+  "train_cleaning": {
+    "input_file": "训练集结果.csv",
+    "rows_before": 14363,
+    "invalid_or_missing_label_rows": 728,
+    "empty_text_rows": 0,
+    "duplicate_text_label_rows_removed": 3453,
+    "rows_after": 10182,
+    "label_counts": {
+      "0": 4702,
+      "1": 5480
+    }
+  },
+  "test_cleaning": {
+    "input_file": "测试集结果.csv",
+    "rows_before": 2677,
+    "invalid_or_missing_label_rows": 129,
+    "empty_text_rows": 0,
+    "duplicate_text_label_rows_removed": 1,
+    "rows_after": 2547,
+    "label_counts": {
+      "0": 1161,
+      "1": 1386
+    }
+  },
+  "exact_text_overlap_removed_from_train": 0,
+  "final_splits": {
+    "train": 9163,
+    "val": 1019,
+    "test": 2547
+  },
+  "label_meanings": {
+    "0": "非诈骗",
+    "1": "诈骗"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "input_file": "/mnt/data/test.csv",
+  "description": "类别无关的八分类 Fraud-R1 三策略攻击集；生成攻击文本时不读取 fraud_type，只在最后用于生成八分类标签。",
+  "label2id": {
+    "正常通话": 0,
+    "客服诈骗": 1,
+    "银行诈骗": 2,
+    "投资诈骗": 3,
+    "钓鱼诈骗": 4,
+    "彩票诈骗": 5,
+    "绑架诈骗": 6,
+    "身份盗窃": 7
+  },
+  "total_rows": 2547,
+  "files": {
+    "credibility": {
+      "path": "test_fraud_r1_credibility.csv",
+      "rows": 2547,
+      "fraud_rows": 1386,
+      "normal_rows": 1161,
+      "modified_fraud_rows": 1386,
+      "modified_normal_rows": 0,
+      "mean_original_chars_fraud": 455.21,
+      "mean_attacked_chars_fraud": 542.79,
+      "class_counts": {
+        "正常通话": 1161,
+        "客服诈骗": 482,
+        "银行诈骗": 399,
+        "投资诈骗": 202,
+        "钓鱼诈骗": 104,
+        "彩票诈骗": 96,
+        "绑架诈骗": 73,
+        "身份盗窃": 30
+      }
+    },
+    "urgency": {
+      "path": "test_fraud_r1_urgency.csv",
+      "rows": 2547,
+      "fraud_rows": 1386,
+      "normal_rows": 1161,
+      "modified_fraud_rows": 1386,
+      "modified_normal_rows": 0,
+      "mean_original_chars_fraud": 455.21,
+      "mean_attacked_chars_fraud": 597.79,
+      "class_counts": {
+        "正常通话": 1161,
+        "客服诈骗": 482,
+        "银行诈骗": 399,
+        "投资诈骗": 202,
+        "钓鱼诈骗": 104,
+        "彩票诈骗": 96,
+        "绑架诈骗": 73,
+        "身份盗窃": 30
+      }
+    },
+    "emotion": {
+      "path": "test_fraud_r1_emotion.csv",
+      "rows": 2547,
+      "fraud_rows": 1386,
+      "normal_rows": 1161,
+      "modified_fraud_rows": 1386,
+      "modified_normal_rows": 0,
+      "mean_original_chars_fraud": 455.21,
+      "mean_attacked_chars_fraud": 661.79,
+      "class_counts": {
+        "正常通话": 1161,
+        "客服诈骗": 482,
+        "银行诈骗": 399,
+        "投资诈骗": 202,
+        "钓鱼诈骗": 104,
+        "彩票诈骗": 96,
+        "绑架诈骗": 73,
+        "身份盗窃": 30
+      }
+    }
+  },
+  "pairwise_text_comparison": {
+    "credibility_vs_urgency": {
+      "same_text_fraud_rows": 0,
+      "different_text_fraud_rows": 1386,
+      "same_text_normal_rows": 1161,
+      "different_text_normal_rows": 0
+    },
+    "urgency_vs_emotion": {
+      "same_text_fraud_rows": 0,
+      "different_text_fraud_rows": 1386,
+      "same_text_normal_rows": 1161,
+      "different_text_normal_rows": 0
+    },
+    "credibility_vs_emotion": {
+      "same_text_fraud_rows": 0,
+      "different_text_fraud_rows": 1386,
+      "same_text_normal_rows": 1161,
+      "different_text_normal_rows": 0
+    }
+  }
+}

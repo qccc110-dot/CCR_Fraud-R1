@@ -1,0 +1,13 @@
+{
+  "checkpoint": "/home/cgq/vscode/CCR/outputs/ccr_run/ccr_best.pt",
+  "test_file": "/home/cgq/vscode/CCR/data/fraud_r1_class_agnostic_binary/test_fraud_r1_emotion.csv",
+  "run_config": "/home/cgq/vscode/CCR/outputs/ccr_run/config.json",
+  "model_name_in_training_config": "hfl/chinese-roberta-wwm-ext",
+  "local_model_dir": "/home/cgq/.cache/huggingface/hub/models--hfl--chinese-roberta-wwm-ext/snapshots/5c58d0b8ec1d9014354d691c538661bf00bfdb44",
+  "tokenizer_dir": "/home/cgq/vscode/CCR/outputs/ccr_run/tokenizer",
+  "feature_size": 128,
+  "max_length": 384,
+  "batch_size": 16,
+  "device": "cuda",
+  "offline": true
+}
